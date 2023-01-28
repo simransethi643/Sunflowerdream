@@ -37,7 +37,7 @@
     }
     
     .dropdown-content a {
-      color: black;
+      color: rgb(26, 1, 252);
       padding: 12px 16px;
       text-decoration: none;
       display: block;
@@ -55,8 +55,8 @@
     <div class="dropdown">
       <button class="dropbtn">Getting Started</button>
       <div class="dropdown-content">
-        <a href="#">Sign In/Sign Up</a>
-        <a href="#">Continue as guest user</a>
-        <a href="#">Sort time goal</a>
+        <a href="Sign In Sign Up.html">Sign In/Sign Up</a>
+        <a href="Continue as guest user.html">Continue as guest user</a>
+        <a href="Short time goal.html">Short time goal</a>
       </div>
     </div>
