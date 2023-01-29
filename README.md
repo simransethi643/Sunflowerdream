@@ -62,7 +62,7 @@
       <button class="dropbtn">Getting Started</button>
       <div class="dropdown-content">
         <a href="Sign In Sign Up.html">Sign In/Sign Up</a>
-        <a href="Continue as guest user.html">Continue as guest user</a>
+        <a href="Welcome.html">Continue as guest user</a>
         <a href="Short time goal.html">Short time goal</a>
       </div>
     </div>
