@@ -6,7 +6,13 @@
                     background:rgb(250, 165, 8);
                     color: blueviolet;
                 }
+                h1 {text-align: center;}
+                div {text-align: center;}
             </style>
+
+              <div class="vertical-center">
+              </div>
+            </div>
          </head>
          <body>
             <h1>GoalSmith</h1>
@@ -37,7 +43,7 @@
     }
     
     .dropdown-content a {
-      color: rgb(26, 1, 252);
+      color: rgb(39, 1, 252);
       padding: 12px 16px;
       text-decoration: none;
       display: block;
