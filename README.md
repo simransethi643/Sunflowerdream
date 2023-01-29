@@ -39,7 +39,7 @@
              }
              
              .dropdown-content a {
-               color: black;
+               color: rgb(0, 38, 255);
                padding: 12px 16px;
                text-decoration: none;
                display: block;
