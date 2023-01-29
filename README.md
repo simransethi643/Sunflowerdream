@@ -61,6 +61,6 @@
                </div>
               </div>
             <div class="dropdown dropbtn">
-                <a href="Welcome.html">Submit</a>
+                <a href="Result.html">Submit</a>
             </div>
         </div>
