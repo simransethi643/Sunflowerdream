@@ -9,10 +9,6 @@
                 h1 {text-align: center;}
                 div {text-align: center;}
             </style>
-
-              <div class="vertical-center">
-              </div>
-            </div>
          </head>
          <body>
             <h1>GoalSmith</h1>
@@ -43,7 +39,7 @@
     }
     
     .dropdown-content a {
-      color: rgb(39, 1, 252);
+      color: rgb(25, 0, 255);
       padding: 12px 16px;
       text-decoration: none;
       display: block;
@@ -59,10 +55,22 @@
     <body>
     
     <div class="dropdown">
-      <button class="dropbtn">Getting Started</button>
+      <button class="dropbtn">Sign In</button>
       <div class="dropdown-content">
-        <a href="Sign In Sign Up.html">Sign In/Sign Up</a>
-        <a href="Continue as guest user.html">Continue as guest user</a>
-        <a href="Short time goal.html">Short time goal</a>
+        <a href="#">Username</a>
+        <a href="#">Password</a>
+      </div>
+      </div>
+    <div class="dropdown">
+    <button class="dropbtn">Sign Up</button>
+      <div class="dropdown-content">
+        <a href="#">Username</a>
+        <a href="#">Password</a>
+        <a href="#">Month</a>
+        <a href="#">Date</a>
       </div>
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">Submit</button>
+    </div>
+</div>
