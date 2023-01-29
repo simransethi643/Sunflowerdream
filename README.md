@@ -70,7 +70,8 @@
         <a href="#">Date</a>
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropbtn">Submit</button>
+    <div class="dropdown dropbtn">
+        <a href="Welcome page.html">Submit</a>
     </div>
+  </div>
 </div>
