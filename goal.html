@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<h1>
+    Your Goal is
+</h1>
+<p>
+    {{goals}}
+</p>
+<h1>
+    Deadline is on
+</h1>
+<p>
+    {{ deadline }}
+</p>
+<form action="{{ url_for('proof') }}" method="post" enctype="multipart/form-data">
+
+    <label for="proof">
+        Upload/Share Your Task Proof: </label>
+    <input type="file" name="proof" id="proof">
+    <input type="submit" value="submit">
+</form>
+
+</html>

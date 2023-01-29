@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Goal Progress Bar Tracking Timeline </title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js">
+    </script>
+</head>
+
+<body>
+    <h1> Progress Bar </h1>
+    <div id="timeline-plot"></div>
+    <script>
+        var goalsData = {
+            {
+                goals_data | tojson
+            }
+        };
+
+        Plotly.newPlot("timeline-plot", [{
+            x: goalsData.dates,
+            y: goalsData.progress,
+            type: 'bar'
+        }], {
+            title: "Goal Progress So Far",
+            xaxis: {
+                title: "Date"
+            },
+            yaxis: {
+                title: "Progress(%)"
+            }
+        });
+    </script>
+</body>
+
+</html>
